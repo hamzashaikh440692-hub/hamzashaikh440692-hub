@@ -220,8 +220,7 @@
 
 <p align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer Quote"/>
-
+“Turning ideas into code, and code into possibilities. 💻✨”
 </p>
 
 ---
