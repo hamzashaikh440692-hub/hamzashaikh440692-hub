@@ -83,6 +83,23 @@ footer{position:relative;z-index:1;text-align:center;padding:36px 20px 50px;colo
 .card .links a{color:var(--mint);font-weight:700;text-decoration:none}
 .card .links a:hover{text-decoration:underline}
 .card .lang{color:var(--muted);font-size:.85rem}
+.readme-box{position:relative;max-height:560px;overflow:hidden;padding:36px 38px 0}
+.readme-box.open{max-height:none;padding-bottom:30px}
+.readme-box::after{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(transparent,#1d1930);pointer-events:none;border-radius:0 0 24px 24px}
+.readme-box.open::after{display:none}
+.readme-more{display:block;margin:18px auto 0}
+.md h1,.md h2,.md h3{font-family:var(--serif);font-weight:400;line-height:1.2;margin:26px 0 12px}
+.md h1{font-size:2.2rem}.md h2{font-size:1.8rem}.md h3{font-size:1.4rem}
+.md>:first-child{margin-top:0}
+.md p,.md li{color:var(--muted)}
+.md ul,.md ol{padding-left:24px;margin:10px 0}
+.md a{color:var(--mint)}
+.md img{max-width:100%;height:auto;vertical-align:middle;border-radius:6px}
+.md hr{border:0;border-top:1px solid var(--edge);margin:26px 0}
+.md pre{background:rgba(0,0,0,.3);padding:16px;border-radius:12px;overflow-x:auto;margin:14px 0;color:var(--text)}
+.md code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.92em}
+.md table{border-collapse:collapse;margin:14px 0;display:block;overflow-x:auto}
+.md th,.md td{border:1px solid var(--edge);padding:8px 14px;text-align:left}
 @media(max-width:760px){
   .about{grid-template-columns:1fr;padding:28px}
   nav a{padding:8px 12px;font-size:.88rem}
@@ -103,6 +120,7 @@ footer{position:relative;z-index:1;text-align:center;padding:36px 20px 50px;colo
   <nav aria-label="Main">
     <a href="#top">Home</a>
     <a href="#about">About</a>
+    <a href="#readme">README</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
@@ -136,6 +154,17 @@ footer{position:relative;z-index:1;text-align:center;padding:36px 20px 50px;colo
           <li><b>Full-stack</b><span>where I’m headed</span></li>
         </ul>
       </div>
+    </div>
+  </section>
+
+  <section id="readme">
+    <div class="wrap">
+      <h2>From my README</h2>
+      <p class="sub">This section updates by itself. Whatever I write in my GitHub profile README shows up here.</p>
+      <div class="glass readme-box" id="readmeBox">
+        <div class="md" id="readmeContent"><p>Loading…</p></div>
+      </div>
+      <button class="btn soft readme-more" id="readmeMore" type="button">Read full README</button>
     </div>
   </section>
 
@@ -181,6 +210,8 @@ footer{position:relative;z-index:1;text-align:center;padding:36px 20px 50px;colo
 
 <footer>© <span id="yr"></span> Hamza Shaikh</footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
 <script>
   var user = "hamzashaikh440692-hub";
 
@@ -198,7 +229,8 @@ footer{position:relative;z-index:1;text-align:center;padding:36px 20px 50px;colo
     {repo:"assignment-13", title:"Assignment 13", desc:"Image-rich page with header, feedback and form sections."},
     {repo:"assignment-14", title:"Assignment 14", desc:"Page built with photos, logo and custom header."},
     {repo:"assignment-15", title:"Assignment 15", desc:"Photo page using AVIF images."},
-    {repo:"assignment-16", title:"Assignment 16", desc:"Using grid to complete Assignment."},
+    {repo:"hamza-shaikh",  title:"Hamza Shaikh",  desc:"Multi-page website with home, menu, about and contact pages."},
+    {repo:"hamzash",       title:"Hamzash",       desc:"Single-page website."}
   ];
 
   var grid = document.getElementById("projectGrid");
@@ -260,6 +292,32 @@ footer{position:relative;z-index:1;text-align:center;padding:36px 20px 50px;colo
       if (list.length) render(list);
     })
     .catch(function(){ /* keep the list above */ });
+
+
+  // Loads your GitHub profile README (main branch) and shows it on the page
+  var readmeUrl = "https://raw.githubusercontent.com/" + user + "/" + user + "/main/README.md";
+  var readmeEl = document.getElementById("readmeContent");
+  var readmeBox = document.getElementById("readmeBox");
+  var readmeBtn = document.getElementById("readmeMore");
+
+  fetch(readmeUrl, {cache: "no-cache"})
+    .then(function(r){ if(!r.ok) throw new Error("README not found"); return r.text(); })
+    .then(function(md){
+      readmeEl.innerHTML = DOMPurify.sanitize(marked.parse(md, {gfm:true}));
+      readmeEl.querySelectorAll("a").forEach(function(a){
+        a.target = "_blank"; a.rel = "noopener";
+      });
+    })
+    .catch(function(){
+      readmeEl.innerHTML = '<p>Could not load the README. <a href="https://github.com/' + user + '" target="_blank" rel="noopener">Open it on GitHub</a>.</p>';
+      readmeBox.classList.add("open");
+      readmeBtn.style.display = "none";
+    });
+
+  readmeBtn.addEventListener("click", function(){
+    var open = readmeBox.classList.toggle("open");
+    readmeBtn.textContent = open ? "Show less" : "Read full README";
+  });
 
   document.getElementById("yr").textContent = new Date().getFullYear();
 </script>
