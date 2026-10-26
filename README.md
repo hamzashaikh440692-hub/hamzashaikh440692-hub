@@ -1,69 +1,68 @@
-# ✧ Hamza Shaikh
 
-*frontend developer in the making* ☁️
+<div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hamza%20Shaikh&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Web%20Developer%20in%20Progress&descAlignY=55&descSize=18" width="100%" HAMZA SHAIKH />
+
+### ✦ building my little corner of the internet ✦
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&width=500&lines=Frontend+Developer+in+Progress;Learning+HTML+%26+CSS;Turning+Ideas+Into+Websites)](https://git.io/typing-svg)
+
+</div>
+
+---
+
+### ୨୧ about me
+
+```js
+const hamza = {
+  role: "Web Development Student",
+  learning: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+  interests: ["Web Design", "Frontend Development"],
+  goal: "Build beautiful and useful websites",
+  motto: "Learn something new every day ✨"
+};
 ```
-╭────────────────────────────────╮
-│  hamza shaikh                  │
-│  student · web developer       │
-│  learning html · css · git     │
-│  heading toward full-stack     │
-╰────────────────────────────────╯
-```
 
-> *a student who loves building things with code.*
+### ✧ tech stack
 
-･ﾟ✧ ━━━━━━━━━━━━━━━━━━━━━━━━ ✧ﾟ･
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,js,git,github,vscode&theme=dark" />
+</p>
 
-## ✦ ABOUT ME:
+### ♡ github analytics
 
-☁️ I build clean, responsive websites  
-🌱 Learning **HTML, CSS, Git & GitHub**  
-🌙 Curious about **frontend** and **full-stack**  
-🤍 Open to learning, collaborating and new projects
+<div align="center">
 
-･ﾟ✧ ━━━━━━━━━━━━━━━━━━━━━━━━ ✧ﾟ･
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=hamzashaikh440692-hub&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=c084fc" />
 
-## ✦ MY TOOLKIT:
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hamzashaikh440692-hub&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c084fc" />
 
-| | |
-| :--- | :--- |
-|  Markup | HTML5 |
-|  Styling | CSS3 |
-|  Version Control | Git · GitHub |
-|  Editor | VS Code |
-|  Next Up | JavaScript, then full-stack |
+<img width="70%" src="https://streak-stats.demolab.com?user=hamzashaikh440692-hub&theme=tokyonight&hide_border=true&background=0D1117&ring=C084FC&fire=F472B6&currStreakLabel=C084FC" />
 
-･ﾟ✧ ━━━━━━━━━━━━━━━━━━━━━━━━ ✧ﾟ･
+</div>
 
-## ✦ MY PROJECTS:
+### ✦ contribution graph
 
-| | Project | Code | Live |
-| :---: | :--- | :---: | :---: |
-| ✧ | **Assignment 1** | [code](https://github.com/hamzashaikh440692-hub/assignment-1) | [open](https://hamzashaikh440692-hub.github.io/assignment-1/) |
-| ✧ | **Assignment 2** | [code](https://github.com/hamzashaikh440692-hub/assignment-2) | [open](https://hamzashaikh440692-hub.github.io/assignment-2/) |
-| ✧ | **Assignment 3** · multi-page site | [code](https://github.com/hamzashaikh440692-hub/assignment-3) | [open](https://hamzashaikh440692-hub.github.io/assignment-3/) |
-| ✧ | **Assignment 4** | [code](https://github.com/hamzashaikh440692-hub/assignment-4) | [open](https://hamzashaikh440692-hub.github.io/assignment-4/) |
-| ✧ | **Assignment 5** | [code](https://github.com/hamzashaikh440692-hub/assignment-5) | [open](https://hamzashaikh440692-hub.github.io/assignment-5/) |
-| ✧ | **Assignment 6** | [code](https://github.com/hamzashaikh440692-hub/assignment-6) | [open](https://hamzashaikh440692-hub.github.io/assignment-6/) |
-| ✧ | **Assignment 7** · social icons page | [code](https://github.com/hamzashaikh440692-hub/assignment-7) | [open](https://hamzashaikh440692-hub.github.io/assignment-7/) |
-| ✧ | **Assignment 8** | [code](https://github.com/hamzashaikh440692-hub/assignment-8) | [open](https://hamzashaikh440692-hub.github.io/assignment-8/) |
-| ✧ | **Assignment 12** | [code](https://github.com/hamzashaikh440692-hub/assignment-12) | [open](https://hamzashaikh440692-hub.github.io/assignment-12/) |
-| ✧ | **Assignment 13** · header, feedback & form | [code](https://github.com/hamzashaikh440692-hub/assignment-13) | [open](https://hamzashaikh440692-hub.github.io/assignment-13/) |
-| ✧ | **Assignment 14** | [code](https://github.com/hamzashaikh440692-hub/assignment-14) | [open](https://hamzashaikh440692-hub.github.io/assignment-14/) |
-| ✧ | **Assignment 15** · photo page | [code](https://github.com/hamzashaikh440692-hub/assignment-15) | [open](https://hamzashaikh440692-hub.github.io/assignment-15/) |
-| ✧ | **Assignment 16** · photo page | [code](https://github.com/hamzashaikh440692-hub/assignment-16) | [open](https://hamzashaikh440692-hub.github.io/assignment-16/) |
+<div align="center">
 
-･ﾟ✧ ━━━━━━━━━━━━━━━━━━━━━━━━ ✧ﾟ･
+[![Hamza's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=hamzashaikh440692-hub&bg_color=0d1117&color=c084fc&line=c084fc&point=f472b6&area=true&hide_border=true)](https://github.com/hamzashaikh440692-hub)
 
-## ✦ FIND ME HERE:
+</div>
 
- **github** · [hamzashaikh440692-hub](https://github.com/hamzashaikh440692-hub)  
- **instagram** · [not._.h4amza](https://instagram.com/not._.h4amza)  
- **facebook** · [not._.h4amza](https://facebook.com/not._.h4amza)
+### ✧ featured projects
 
-･ﾟ✧ ━━━━━━━━━━━━━━━━━━━━━━━━ ✧ﾟ･
+- 🌐 **Portfolio Website** — My personal web development portfolio.
+- 🎨 **Landing Pages** — Practicing modern layouts and CSS effects.
+- 💻 **HTML & CSS Projects** — Small projects made while learning.
 
-> *turning ideas into code, and code into possibilities* ✨
->
-> keep learning · keep building · keep growing
+### ୨୧ a little reminder
+
+<div align="center">
+
+*"Great things are built one line of code at a time."*
+
+**Thanks for stopping by! ♡**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer" width="100%"/>
+
+</div>
