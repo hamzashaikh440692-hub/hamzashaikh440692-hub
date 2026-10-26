@@ -61,7 +61,7 @@ const hamza = {
 
 *"Great things are built one line of code at a time."*
 
-**Thanks for stopping by! ♡**
+THANKS FOR WATCHING MY MY README!
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer" width="100%"/>
 
