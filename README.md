@@ -5,7 +5,8 @@
 
 ### ✦ building my little corner of the internet ✦
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=The+five+boxing+wizards+jump+quickly)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&width=500&lines=Frontend+Developer+in+Progress;Learning+HTML+%26+CSS;Turning+Ideas+Into+Websites)](https://git.io/typing-svg)
+
 </div>
 
 ---
